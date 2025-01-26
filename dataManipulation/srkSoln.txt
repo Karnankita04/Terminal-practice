@@ -1,0 +1,36 @@
+Display the unique movie titles (remove any duplicates from the Title column).
+soln: sort srk.txt | uniq
+
+Sort the dataset by year in ascending order.
+soln: sort -t',' -nk2 srk.txt
+
+Count the occurrences of each year in the dataset and display the results.
+soln: cut -d',' -f2 srk.txt | sort | uniq -c
+
+Extract only the movie titles (first field) from the dataset using cut.
+soln: cut -d',' -f1 srk.txt
+
+Sort the director names alphabetically (based on the Director(s) column).
+soln: cut -d',' -f5 srk.txt | sort
+
+Display the last 3 movies (based on the Title column).
+soln: cut -d',' -f1 srk.txt | tail -n3
+
+Redirect the sorted dataset (by year) to /dev/null to suppress the output.
+soln: sort -t ',' -k2 srk.txt > /dev/null
+
+Extract only the last names (third field) from the dataset and display the unique ones.
+soln: cut -d',' -f4 srk.txt | cut -d'!' -f1 
+
+Display only the movies released in 1993.
+soln: cut -d',' -f1,2 srk.txt | sort -t',' -k2
+
+Display all the unique years (field 2) from your dataset in ascending order.
+soln: cut -d',' -f2 srk.txt | sort | uniq
+
+Find and display all movies (field 1) directed by a specific director, e.g., "Raj Kanwar."
+soln: 
+
+Extract the first names of all directors (field 5) and display them without duplicates, in alphabetical order.
+soln: cut -d',' -f5 srk.txt | cut -d'!' -f2 | cut -d' ' -f1 | sort | uniq
+

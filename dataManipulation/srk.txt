@@ -1,0 +1,10 @@
+Title,Year,Credited as,Role,Director(s)
+Deewana,1992,Actor,Sahay !Raja Sahay,Kanwar !Raj Kanwar
+Chamatkar,1992,Actor,Srivastava !Sunder Srivastava,Mehra !Rajiv Mehra
+Dil Aashna Hai,1992,Actor,Singh !Karan Singh,Malini !Hema Malini
+Raju Ban Gaya Gentleman,1992,Actor,Mathur !Raj Mathur,Mirza !Aziz Mirza
+Maya Memsaab,1993,Actor,Kumar !Lalit Kumar,Mehta !Ketan Mehta
+Pehla Nasha,1993,Actor,Himself,Gowariker !Ashutosh Gowariker
+King Uncle,1993,Actor,Bhansal !Anil Bhansal,Roshan !Rakesh Roshan
+Baazigar,1993,Actor,Malhotra !Vicky Malhotra / Ajay Sharma[a],Abbas-Mustan
+Darr,1993,Actor,Mehra !Rahul Mehra,Chopra !Yash Chopra

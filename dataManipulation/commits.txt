@@ -1,0 +1,5 @@
+cut -d',' -f2 all_commits.csv | sort | uniq -c | sort -rn | head -n1
+
+cut -d',' -f3 all_commits.csv | cut -d' ' -f1 | sort | uniq -c | sort -rn
+
+cut -d',' -f3 all_commits.csv | cut -d':' -f1 | sort -t' ' -k2 | uniq -c | sort -rn

@@ -1,0 +1,41 @@
+1. Remove duplicate lines from data.txt and display the unique ones.
+soln:  sort data.txt | uniq
+
+uniq: works on consecutive duplicate elements.
+
+2. Count occurrences of each unique line in data.txt and display them.
+soln:  sort data.txt | uniq -c
+
+3. Sort the lines in:
+=> Default ASCII order. :  sort data.txt
+=> Reverse ASCII order. :  sort -r data.txt
+
+4. Display the last 3 lines of data.txt.
+soln:  tail -n 3 data.txt 
+
+5. Redirect the sorted content of data.txt to /dev/null (to suppress the output).
+soln:  sort data.txt > /dev/null
+
+6. Using cut, create a sample file students.txt with the following content:
+=> Extract only the second field (names) using cut.
+soln: cut -f2 -d ',' student.txt
+
+=> Extract the first and third fields using cut with a delimiter.
+soln: cut -f1,3 -d ',' student.txt
+
+
+7. Display the unique lines in employees.txt.
+soln: sort employees.txt | uniq -u
+// -u removes all the duplicates
+
+8. Sort employees.txt by names (second field).
+soln: sort -t ',' -k2 employees.txt
+
+9. Count the occurrences of duplicate lines in employees.txt.
+soln: sort employees.txt | uniq -c
+
+10. Extract the second and fourth fields (name and salary) using cut.
+soln: cut -f 2,4 -d ','  employees.txt
+
+11. Sort the salaries in descending order.
+soln: 
