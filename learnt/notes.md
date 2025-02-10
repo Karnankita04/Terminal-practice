@@ -27,3 +27,5 @@ mv fileName newFileName (to rename or move)
 
 sort -nr (sort by numbers but in reverse order)
 sort -k2 (second field)
+
+Grep
